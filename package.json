@@ -21,7 +21,8 @@
     "lint": "eslint src --ext .js,.ts,.json,.md && tsc",
     "changeset": "changeset",
     "version": "changeset version",
-    "release": "changeset publish"
+    "release": "changeset publish",
+    "prepublishOnly": "pnpm build"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.37.0",
