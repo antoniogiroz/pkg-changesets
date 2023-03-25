@@ -1,5 +1,11 @@
 # @antoniogiroz/pkg-changesets
 
+## 0.2.1
+
+### Patch Changes
+
+- e677642: Add prepublish hook in package.json
+
 ## 0.2.0
 
 ### Minor Changes
