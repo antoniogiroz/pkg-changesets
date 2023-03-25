@@ -12,7 +12,7 @@ Package creation using changesets to manage the releases
 
 Do the previous steps for each change you want in the next release.
 
-* If you prefer, you can run `pnpm changeset` for each change you have made after all changes are merged. And then, create a PR with all the changesets.
+* You also can commit to the main branch if it's not protected, but you will have to create a PR with all the changesets, running the command `pnpm changeset` for each change you have made.
 
 ## How to create a release
 
